@@ -14,10 +14,15 @@ $(document).ready(function(){
 
     // JQuery loop
     $(employees).each(function(index){
-      console.log((index + 1) + ": " + this.firstName);
+      console.log((index + 1) + ": " + this.picture);
 
-      $ul.append('<li id="employee_id_' + (index + 1) + '">' + this.firstName + ' ' + this.lastName + '</li>')
+      $ul.append('<li id="employee_id_' + (index + 1) + '" data-picture="' + this.picture + '">' + this.firstName + ' ' + this.lastName + '</li>')
     })
+
+    $('li').click(function (event) {
+      console.log("clicked!", event.target)
+    })
+
   })
 
 

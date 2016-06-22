@@ -1,5 +1,15 @@
-{"employees":[
-    {"firstName":"John", "lastName":"Doe"},
-    {"firstName":"Anna", "lastName":"Smith"},
-    {"firstName":"Peter", "lastName":"Jones"}
+{
+  "employees":[
+    {
+      "firstName":"Ezio",
+      "lastName":"Auditore",
+      "picture": "http://localhost:3000/assets/ezio-auditore.png"},
+      {
+        "firstName":"Geralt",
+        "lastName":"of Rivia",
+        "picture": "http://localhost:3000/assets/geralt-of-rivia.jpg"},
+        {
+          "firstName":"Kit",
+          "lastName":"Walker",
+          "picture":"http://localhost:3000/assets/the-phantom.jpg"}
 ]}
